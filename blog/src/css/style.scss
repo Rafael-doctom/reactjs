@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import 'sass/colors';
+@import 'sass/typography';
+
+html {
+  font-size: 62.5%;
+
+  body {
+    width: 100%;
+    background-color: #050607;
+  
+    font-size: 1.6rem;
+  }
+  
+}
+
+@import 'sass/layout';
